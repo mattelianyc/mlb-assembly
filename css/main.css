@@ -1,11 +1,27 @@
 @font-face {
 	font-family: Montserrat;
-	src: url(../assets/fonts/Montserrat/Montserrat-Regular.ttf);
+	src: url(../assets/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: MontserratLight;
+	src: url(../assets/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+	font-family: MontserratBold;
+	src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+	font-family: MontserratBlack;
+	src: url(../assets/fonts/Montserrat-Black.ttf);
 }
 
 * {
 	font-family: Montserrat;
 }
+.light {font-family: MontserratLight}
+.bold {font-family: MontserratBold}
+.black {font-family: MontserratBlack}
+
 .page-header {
 	border-bottom: none;
 }
@@ -26,9 +42,28 @@ section {
 	z-index: 24000;
 	padding: 50px 0px !important;
 }
+
 #one {
 	margin-top: 200px;
 }
+
+#get-tickets-btn {
+	border-radius: 0;
+	border: 2px solid black;
+	margin: 30px 0px;
+}
+#get-access-btn {
+	border-radius: 0;
+	border: 2px solid black;
+	background: black;
+	color:white;
+}
+#get-access-input {
+	border-radius: 0;
+	border: 2px solid black;
+	padding:16px;
+}
+
 #bg-image-wrapper	> img {
 	position: absolute;
 	left:0;
@@ -51,6 +86,9 @@ section {
 }
 #pink {
 	z-index: 15000;
+}
+#pink-splash {
+	z-index: 15001;
 }
 #yellow {
 	z-index: 16000;
