@@ -5,22 +5,18 @@
 	<title>MLB ASSEMBLY</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
-<body>
+<body class="overflow-hidden">
 
 	<div id="bg-image-wrapper">
-		<!-- <img id="grey" src="assets/bg/grey-bg.png">
-		<img id="black" src="assets/bg/black-bg.png">
-		<img id="blue" src="assets/bg/blue-bg.png">
-		<img id="green" src="assets/bg/green-bg.png">
-		<img id="pink" src="assets/bg/pink-bg.png"> -->
-		<object id="grey" data="assets/bg/grey.svg" type="image/svg+xml"></object>
-		<object id="black" data="assets/bg/black.svg" type="image/svg+xml"></object>
-		<object id="blue" data="assets/bg/blue.svg" type="image/svg+xml"></object>
-		<object id="green" data="assets/bg/green.svg" type="image/svg+xml"></object>
-		<object id="pink" data="assets/bg/pink.svg" type="image/svg+xml"></object>
-		<object id="pink-splash" data="assets/bg/pink-splash.svg" type="image/svg+xml"></object>
-		<object id="yellow" data="assets/bg/yellow.svg" type="image/svg+xml"></object>
+		<img id="grey" src="assets/bg/grey.png" />
+		<img id="black" src="assets/bg/black.png" />
+		<img class="animated" id="blue" src="assets/bg/blue.png" style="opacity:0;" />
+		<img class="animated" id="green" src="assets/bg/green.png" style="opacity:0;" />
+		<img class="animated" id="yellow" src="assets/bg/yellow.png" style="opacity:0;" />
+		<img class="animated" id="pink" src="assets/bg/pink.png" style="opacity:0;" />
+		<img class="animated" id="pink-splash" src="assets/bg/pink-splash.png" style="opacity:0;" />
 	</div>
 	
 	<div id="nav" class="container-fluid">
@@ -30,14 +26,15 @@
 	</div>
 
 	<div class="container-fluid">
-		<div class="col-md-3 col-sm-1"></div>
-		<div class="col-md-6 col-sm-10 col-xs-12">
+		<div class="col-lg-3 col-sm-1"></div>
+		<div class="col-lg-6 col-sm-10 col-xs-12">
 
 				<section id="one">
 					<div class="row text-center">
 						<div class="col-xs-12">
 							<div class="page-header">
-								<img src="assets/diamond.png">
+								<img src="assets/diamond-black.png" style="position:absolute;">
+								<img id="diamond-blue" class="animated" src="assets/diamond-blue.png" style="opacity:0;">
 							</div>
 						</div>	
 					</div>
@@ -120,19 +117,27 @@
 								<h3 class="light">STAY CONNECTED</h3>	
 							</div>
 							<br>
-							<div class="row">
+							<div class="row social-links-row">
 								<div class="col-xs-2"></div>
 								<div class="col-xs-2">
-									<img src="assets/instagram.png">
+									<a href="#">
+										<img src="assets/instagram.png">
+									</a>
 								</div>
 								<div class="col-xs-2">
-									<img src="assets/facebook.png">
+									<a href="#">
+										<img src="assets/facebook.png">
+									</a>
 								</div>
 								<div class="col-xs-2">
-									<img src="assets/twitter.png">
+									<a href="#">
+										<img src="assets/twitter.png">
+									</a>
 								</div>
 								<div class="col-xs-2">
-									<img src="assets/youtube.png">
+									<a href="#">
+										<img src="assets/youtube.png">
+									</a>
 								</div>
 								<div class="col-xs-2"></div>
 							</div>
@@ -142,12 +147,12 @@
 
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-1"></div>
+		<div class="col-lg-3 col-sm-1"></div>
 
 	</div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/scribble.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

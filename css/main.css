@@ -1,3 +1,13 @@
+.overflow-hidden {overflow:hidden;}
+
+#bg-image-wrapper	> img {
+	position: fixed;
+	left:0;
+	right:0;
+	bottom:0;
+	width: 100%;
+}
+
 @font-face {
 	font-family: Montserrat;
 	src: url(../assets/fonts/Montserrat-Regular.ttf);
@@ -18,13 +28,11 @@
 * {
 	font-family: Montserrat;
 }
+
 .light {font-family: MontserratLight}
 .bold {font-family: MontserratBold}
 .black {font-family: MontserratBlack}
 
-.page-header {
-	border-bottom: none;
-}
 #nav {
 	position: fixed;
 	z-index: 20000;
@@ -35,17 +43,27 @@
 	z-index: 32000;
 }
 
-section {
-	background: white;
-	margin: 100px 0px;
-	position: relative;
-	z-index: 24000;
-	padding: 50px 0px !important;
+.page-header {
+	border-bottom: none;
 }
 
-#one {
-	margin-top: 200px;
+section {
+	background: white;
+	margin: 125px 0px;
+	position: relative;
+	z-index: 24000;
+	padding: 50px 15px !important;
 }
+
+	#one {
+		margin-top: 200px;
+	}
+	#two {
+		padding: 100px 15px !important;
+	}
+	#four {
+		margin-bottom: 175px !important;
+	}
 
 #get-tickets-btn {
 	border-radius: 0;
@@ -64,22 +82,10 @@ section {
 	padding:16px;
 }
 
-#bg-image-wrapper	> img {
-	position: absolute;
-	left:0;
-	right:0;
-	top:0;
-	bottom:0;
-	width: 100%;
+.social-links-row > div > a {
+	cursor: pointer;
 }
-#bg-image-wrapper	> object {
-	position: absolute;
-	left:0;
-	right:0;
-	top:0;
-	bottom:0;
-	width: 100%;
-}
+
 #grey {
 	z-index: 11000;
 }
@@ -92,12 +98,19 @@ section {
 #green {
 	z-index: 14000;
 }
+#yellow {
+	z-index: 14500;
+}
 #pink {
 	z-index: 15000;
 }
 #pink-splash {
-	z-index: 15001;
+	z-index: 15002;
 }
-#yellow {
-	z-index: 16000;
+
+#three {
+	z-index: 14999;
+}
+#four {
+	z-index: 15001;
 }
