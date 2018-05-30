@@ -114,3 +114,34 @@ section {
 #four {
 	z-index: 15001;
 }
+
+@media only screen and (max-width: 768px) {
+	.section-one-banner {
+		font-size: 16px;
+	}
+	.section-one-location {
+    font-size: 18px;
+	}
+
+	.list-unstyled > li > h2 {
+		font-size: 21px;
+	}
+
+	.section-four-header {
+		font-size: 21px;
+	}
+
+	#get-access-input {
+		width: 100%;
+	}
+	.input-group-btn {
+		display: inline-block;
+	}
+	#get-access-btn {
+		width: 100%;
+	}
+
+	.input-group {
+		width: 100%;
+	}
+}	

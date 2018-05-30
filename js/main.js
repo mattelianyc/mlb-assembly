@@ -13,7 +13,7 @@ $(document).ready(function () {
 				hHone = $('#one').outerHeight(),
 				hTtwo = $('#two').offset().top,
 				hHtwo = $('#two').outerHeight(),
-				hTthree = ($('#three').offset().top-450),
+				hTthree = ($('#three').offset().top-420),
 				hHthree = $('#three').outerHeight(),
 				hTfour = $('#four').offset().top,
 				hHfour = $('#four').outerHeight(),
