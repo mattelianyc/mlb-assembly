@@ -1,4 +1,7 @@
-.overflow-hidden {overflow:hidden;}
+.parallax-window {
+    height: 100%;
+    background: transparent;
+}
 
 #bg-image-wrapper	> img {
 	position: fixed;

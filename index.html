@@ -6,31 +6,111 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link href="css/parallax.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<style type="text/css">
+		
+		#second{
+      background: url(assets/bg/grey.png) 50% 0 no-repeat fixed;
+	    background-size: cover;
+      color: white;
+      height: 3000px;
+      /*margin: 0 auto;*/
+      overflow: hidden;
+      padding: 0;
+      width: 100%;
+		}
+
+		#second .bg{
+		  background: url(assets/bg/black.png) 50% 0 no-repeat fixed;
+		  background-size: cover;
+		  height: 3000px;
+		  margin: 0 auto;
+		  padding: 0;
+		  position: absolute;
+		  z-index: 200;
+		  max-width: 1900px;
+		  width: 100%;
+		  overflow: hidden;
+		}
+		#second .bg2{
+		  background: url(assets/bg/blue.png) 50% 0 no-repeat fixed;
+		  background-size: cover;
+		  height: 3000px;
+		  margin: 0 auto;
+		  padding: 0;
+		  position: absolute;
+		  z-index: 200;
+		  max-width: 1900px;
+		  width: 100%;
+		  overflow: hidden;
+		}
+		#second .bg3{
+		  background: url(assets/bg/yellow.png) 50% 0 no-repeat fixed;
+		  background-size: cover;
+		  height: 3000px;
+		  margin: 0 auto;
+		  padding: 0;
+		  position: absolute;
+		  z-index: 200;
+		  max-width: 1900px;
+		  width: 100%;
+		  overflow: hidden;
+		}
+		#second .bg4{
+		  background: url(assets/bg/green.png) 50% 0 no-repeat fixed;
+		  background-size: cover;
+		  height: 3000px;
+		  margin: 0 auto;
+		  padding: 0;
+		  position: absolute;
+		  z-index: 200;
+		  max-width: 1900px;
+		  width: 100%;
+		  overflow: hidden;
+		}
+		#second .bg5{
+		  background: url(assets/bg/pink.png) 50% 0 no-repeat fixed;
+		  background-size: cover;
+		  height: 3000px;
+		  margin: 0 auto;
+		  padding: 0;
+		  position: absolute;
+		  z-index: 200;
+		  max-width: 1900px;
+		  width: 100%;
+		  overflow: hidden;
+		}
+		#second .bg6{
+		  background: url(assets/bg/pink-splash.png) 50% 0 no-repeat fixed;
+		  background-size: cover;
+		  height: 3000px;
+		  margin: 0 auto;
+		  padding: 0;
+		  position: absolute;
+		  z-index: 200;
+		  max-width: 1900px;
+		  width: 100%;
+		  overflow: hidden;
+		}
+	</style>
 </head>
-<body class="overflow-hidden">
+<body>
+	<div id="second">
+			   <!-- <div class="story"> -->
+    <div class="bg"></div>
+    <div class="bg2"></div>
+    <div class="bg3"></div>
+    <div class="bg4"></div>
+    <div class="bg5"></div>
+    <div class="bg6"></div>
 
-	<div id="bg-image-wrapper">
-		<img id="grey" src="assets/bg/grey.png" />
-		<img id="black" src="assets/bg/black.png" />
-		<img class="animated" id="blue" src="assets/bg/blue.png" style="opacity:0;" />
-		<img class="animated" id="green" src="assets/bg/green.png" style="opacity:0;" />
-		<img class="animated" id="yellow" src="assets/bg/yellow.png" style="opacity:0;" />
-		<img class="animated" id="pink" src="assets/bg/pink.png" style="opacity:0;" />
-		<img class="animated" id="pink-splash" src="assets/bg/pink-splash.png" style="opacity:0;" />
-	</div>
-	
-	<div id="nav" class="container-fluid">
-		<div class="text-center">
-			<img src="assets/logo.png" style="margin:20px;">
-		</div>
-	</div>
-
-	<div class="container-fluid">
+    <div class="container-fluid">
 
 		<div class="col-lg-3 col-sm-1"></div>
 
 		<div class="col-lg-6 col-sm-10 col-xs-12">
-
+			
 				<section id="one">
 					<div class="row text-center">
 						<div class="col-xs-12">
@@ -150,14 +230,26 @@
 				</section>
 
 			</div>
+			<div class="col-lg-3 col-sm-1"></div>
 		</div>
 
-		<div class="col-lg-3 col-sm-1"></div>
 
 	</div>
+			   <!-- </div>
+			</div> -->
+	<!-- <div id="nav" class="container-fluid">
+		<div class="text-center">
+			<img src="assets/logo.png" style="margin:20px;">
+		</div>
+	</div> -->
+
+	
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://www.solodev.com/assets/parallax/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="https://www.solodev.com/assets/parallax/jquery.parallax-1.1.3.js"></script>
+	<script src="https://www.solodev.com/assets/parallax/jquery.scrollTo-1.4.2-min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
