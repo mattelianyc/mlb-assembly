@@ -41,100 +41,104 @@ h2{
 
 p,h1,h2,h3,h4,h5,h6 {
         color: black;
+        letter-spacing: 3.5px !important;
+        line-height: 1.4;
 }
 
 #nav li{
         margin: 0 0 15px 0;     
 }
 
-#header, #intro, #second{
+#header, #intro, #wrap{
         width: 100%;
 }
 
 a:hover {
         color: #e500b1;
 }
-#second{
-        background: url(../assets/bg/grey.png) 50% 0 no-repeat fixed;
+#wrap{
+        background: url(../assets/bg/grey.png) 50% 0 fixed;
         background-size: cover;
         color: white;
-        height: 3800px;
+        /*height: 4200px;*/
         /*margin: 0 auto;*/
         overflow: hidden;
         padding: 0;
         width: 100%;
         position: absolute;
+        left: 0;
+        right: 0;
 }
 
-#second .bg{
-  background: url(../assets/bg/black.png) 50% 0 no-repeat fixed;
+#wrap .bg{
+  background: url(../assets/bg/black.png) 50% 0 fixed;
   background-size: cover;
-  height: 3800px;
+  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  max-width: 1900px;
+  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
-#second .bg2{
-  background: url(../assets/bg/blue.png) 50% 0 no-repeat fixed;
+#wrap .bg2{
+  background: url(../assets/bg/blue.png) 50% 0 fixed;
   background-size: cover;
-  height: 3800px;
+  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  max-width: 1900px;
+  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
-#second .bg3{
-  background: url(../assets/bg/yellow.png) 50% 0 no-repeat fixed;
+#wrap .bg3{
+  background: url(../assets/bg/yellow.png) 50% 0 fixed;
   background-size: cover;
-  height: 3800px;
+  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  max-width: 1900px;
+  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
-#second .bg4{
-  background: url(../assets/bg/green.png) 50% 0 no-repeat fixed;
+#wrap .bg4{
+  background: url(../assets/bg/green.png) 50% 0 fixed;
   background-size: cover;
-  height: 3800px;
+  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  max-width: 1900px;
+  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
-#second .bg5{
-  background: url(../assets/bg/pink.png) 50% 0 no-repeat fixed;
+#wrap .bg5{
+  background: url(../assets/bg/pink.png) 50% 0 fixed;
   background-size: cover;
-  height: 3800px;
+  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
-  z-index: 200;
-  max-width: 1900px;
+  z-index: 14999;
+  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
-#second .bg6{
-  background: url(../assets/bg/pink-splash.png) 50% 0 no-repeat fixed;
+#wrap .bg6{
+  background: url(../assets/bg/pink-splash.png) 50% 0 fixed;
   background-size: cover;
   height: 3800px;
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  max-width: 1900px;
+  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
