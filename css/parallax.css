@@ -11,37 +11,29 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 @charset "utf-8";
 /* CSS Document */
 
-body{
+body {
         margin: 0;
         min-width: 980px;
         padding: 0;
 }
 
-p{
+p {
         margin: 0 0 20px 0;     
 }
 
-p, ul{
-        /*font-family: 'Open Sans Condensed', sans-serif;*/
+p, ul {
         font-size-adjust:0.488;
         font-weight:200;
         font-style:normal;
 }
 
-/*img{
-        border: 0;
-        width: 100%;
-}*/
-
 h1, #pixels{
-        /*font-family: 'Open Sans Condensed', sans-serif;*/
         font-size-adjust:0.40;
         font-weight:700;
         font-style:normal;
 }
 
 h2{
-        /*font-family: 'Open Sans Condensed', sans-serif;*/
         font-size-adjust:0.531;
         font-weight:500;
         font-style:normal;
@@ -49,32 +41,6 @@ h2{
 
 p,h1,h2,h3,h4,h5,h6 {
         color: black;
-}
-
-#header h1, #pixels{
-        /*color: #48941A;*/
-}
-
-.float-left{
-        float: left;    
-        margin: 0 0 0 20px;
-}
-
-.float-right{
-        float: right;
-        margin: 0 20px 0 0;
-}
-
-.center{
-        font-size: 2.5em;
-        padding: 80px 0 0 0;
-        text-align: center;
-}
-
-#nav{
-        list-style: none;
-        position: fixed;
-        right: 20px;
 }
 
 #nav li{
@@ -85,82 +51,99 @@ p,h1,h2,h3,h4,h5,h6 {
         width: 100%;
 }
 
-#intro{
-        background:url("images/work-1.jpg") 50% 0 no-repeat fixed;
-        background-size: cover;
-        /*color: white;*/
-        height: 600px;
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
+a:hover {
+        color: #e500b1;
 }
-
-/*#second{
+#second{
+        background: url(../assets/bg/grey.png) 50% 0 no-repeat fixed;
         background-size: cover;
-        height: 2300px;
-        margin: 0 auto;
+        color: white;
+        height: 3800px;
+        /*margin: 0 auto;*/
         overflow: hidden;
         padding: 0;
         width: 100%;
+        position: absolute;
 }
 
 #second .bg{
-        height: 2300px;
-        margin: 0 auto;
-        padding: 0;
-        position: absolute;
-        z-index: 200;
-        max-width: 1900px;
-        width: 100%;
-        overflow: hidden;
+  background: url(../assets/bg/black.png) 50% 0 no-repeat fixed;
+  background-size: cover;
+  height: 3800px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  z-index: 200;
+  max-width: 1900px;
+  width: 100%;
+  overflow: hidden;
 }
 #second .bg2{
-        height: 2300px;
-        margin: 0 auto;
-        padding: 0;
-        position: absolute;
-        z-index: 200;
-        max-width: 1900px;
-        width: 100%;
-        overflow: hidden;
+  background: url(../assets/bg/blue.png) 50% 0 no-repeat fixed;
+  background-size: cover;
+  height: 3800px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  z-index: 200;
+  max-width: 1900px;
+  width: 100%;
+  overflow: hidden;
 }
 #second .bg3{
-        height: 2300px;
-        margin: 0 auto;
-        padding: 0;
-        position: absolute;
-        z-index: 200;
-        max-width: 1900px;
-        width: 100%;
-        overflow: hidden;
+  background: url(../assets/bg/yellow.png) 50% 0 no-repeat fixed;
+  background-size: cover;
+  height: 3800px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  z-index: 200;
+  max-width: 1900px;
+  width: 100%;
+  overflow: hidden;
 }
 #second .bg4{
-        height: 2300px;
-        margin: 0 auto;
-        padding: 0;
-        position: absolute;
-        z-index: 200;
-        max-width: 1900px;
-        width: 100%;
-        overflow: hidden;
+  background: url(../assets/bg/green.png) 50% 0 no-repeat fixed;
+  background-size: cover;
+  height: 3800px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  z-index: 200;
+  max-width: 1900px;
+  width: 100%;
+  overflow: hidden;
 }
 #second .bg5{
-        height: 2300px;
-        margin: 0 auto;
-        padding: 0;
-        position: absolute;
-        z-index: 200;
-        max-width: 1900px;
-        width: 100%;
-        overflow: hidden;
+  background: url(../assets/bg/pink.png) 50% 0 no-repeat fixed;
+  background-size: cover;
+  height: 3800px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  z-index: 200;
+  max-width: 1900px;
+  width: 100%;
+  overflow: hidden;
 }
 #second .bg6{
-        height: 2300px;
-        margin: 0 auto;
-        padding: 0;
-        position: absolute;
-        z-index: 200;
-        max-width: 1900px;
-	width: 100%;
-        overflow: hidden;
-}*/
+  background: url(../assets/bg/pink-splash.png) 50% 0 no-repeat fixed;
+  background-size: cover;
+  height: 3800px;
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  z-index: 200;
+  max-width: 1900px;
+  width: 100%;
+  overflow: hidden;
+}
+#nav {
+        position: fixed;
+        z-index: 20000;
+        background: white;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 32000;
+}

@@ -1,8 +1,3 @@
-.parallax-window {
-    height: 100%;
-    background: transparent;
-}
-
 #bg-image-wrapper	> img {
 	position: fixed;
 	left:0;
@@ -36,16 +31,6 @@
 .bold {font-family: MontserratBold}
 .black {font-family: MontserratBlack}
 
-#nav {
-	position: fixed;
-	z-index: 20000;
-	background: white;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 32000;
-}
-
 .page-header {
 	border-bottom: none;
 }
@@ -63,9 +48,6 @@ section {
 	}
 	#two {
 		padding: 100px 15px !important;
-	}
-	#four {
-		margin-bottom: 175px !important;
 	}
 
 #get-tickets-btn {
@@ -116,6 +98,7 @@ section {
 }
 #four {
 	z-index: 15001;
+	margin-bottom: 175px !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -139,6 +122,8 @@ section {
 	}
 	.input-group-btn {
 		display: inline-block;
+		width: 100%;
+		left: 1px;
 	}
 	#get-access-btn {
 		width: 100%;
