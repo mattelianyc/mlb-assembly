@@ -57,97 +57,73 @@ a:hover {
         color: #e500b1;
 }
 #wrap{
-        background: url(../assets/bg/grey.png) 50% 0 fixed;
-        background-size: cover;
-        color: white;
-        /*height: 4200px;*/
-        /*margin: 0 auto;*/
-        overflow: hidden;
-        padding: 0;
-        width: 100%;
-        position: absolute;
-        left: 0;
-        right: 0;
+background: url(../assets/bg/grey.png) 50% 0 fixed;
+background-size: cover;
+color: white;
+overflow: hidden;
+padding: 0;
+width: 100%;
+position: absolute;
+left: 0;
+right: 0;
 }
 
 #wrap .bg{
   background: url(../assets/bg/black.png) 50% 0 fixed;
   background-size: cover;
-  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
 #wrap .bg2{
   background: url(../assets/bg/blue.png) 50% 0 fixed;
   background-size: cover;
-  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
 #wrap .bg3{
   background: url(../assets/bg/yellow.png) 50% 0 fixed;
   background-size: cover;
-  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
 #wrap .bg4{
   background: url(../assets/bg/green.png) 50% 0 fixed;
   background-size: cover;
-  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 200;
-  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
 #wrap .bg5{
   background: url(../assets/bg/pink.png) 50% 0 fixed;
   background-size: cover;
-  /*height: 4200px;*/
   margin: 0 auto;
   padding: 0;
   position: absolute;
   z-index: 14999;
-  /*max-width: 1900px;*/
-  width: 100%;
-  overflow: hidden;
-}
-#wrap .bg6{
-  background: url(../assets/bg/pink-splash.png) 50% 0 fixed;
-  background-size: cover;
-  height: 3800px;
-  margin: 0 auto;
-  padding: 0;
-  position: absolute;
-  z-index: 200;
-  /*max-width: 1900px;*/
   width: 100%;
   overflow: hidden;
 }
 #nav {
-        position: fixed;
-        z-index: 20000;
-        background: white;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 32000;
+position: fixed;
+z-index: 20000;
+background: white;
+top: 0;
+left: 0;
+right: 0;
+z-index: 32000;
 }

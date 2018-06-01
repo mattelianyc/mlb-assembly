@@ -23,7 +23,8 @@
     <div class="bg3"></div>
     <div class="bg4"></div>
     <div class="bg5"></div>
-    <div class="bg6"></div>
+
+    <!-- <img id="pink-splash" src="assets/bg/pink-splash.png" style="position:absolute;bottom:0;width:100%;z-index:15000"> -->
 
     <div class="container-fluid">
 
@@ -52,7 +53,6 @@
 							<h3 class="section-one-address">
 								<div class="light">101 DISTRICT SQ. SW,<br>WASHINGTON, D.C. 20024</div>
 							</h3>
-
 						</div>	
 					</div>
 					<div class="row text-center">
@@ -87,21 +87,47 @@
 				</section>
 
 				<section id="img">
-					<div class="row text-center">
-						<div class="col-xs-12">
-							<img src="assets/julio.jpg" class="img-responsive">
-						</div>
-					</div>
+
+					  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+					    <ol class="carousel-indicators">
+					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					      <li data-target="#myCarousel" data-slide-to="1"></li>
+					      <li data-target="#myCarousel" data-slide-to="2"></li>
+					    </ol>
+
+					    <div class="carousel-inner">
+					      <div class="item active">
+					        <img src="assets/julio.jpg" alt="julio" style="width:100%;">
+					      </div>
+
+					      <div class="item">
+					        <img src="assets/skyler.jpg" alt="skyler" style="width:100%;">
+					      </div>
+					    
+					      <div class="item">
+					        <img src="assets/angel-and-dren.jpg" alt="angel-and-dren" style="width:100%;">
+					      </div>
+					    </div>
+
+					    <!-- Left and right controls -->
+					    <div class="carousel-buttons">
+						    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									<img class="img-responsive pull-left" src="assets/arrow-left.png" width="40" height="auto" style="cursor: pointer;">
+						    </a>
+						    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+									<img class="img-responsive pull-right" src="assets/arrow-right.png" width="40" height="auto" style="cursor: pointer;">
+						    </a>
+					    </div>
+
+					  </div>
+
 				</section>
 
 				<section id="three">
 					<div class="row text-center">
 						<div class="col-xs-12">
-
-							<div class="page-header">
-								<h1 class="light">DAILY DROPS</h1>	
-							</div>
-
+							<h1 class="light">DAILY DROPS</h1>	
 							<ul class="list-unstyled">
 								<li><h2 class="bold">FEAR OF GOD</h2></li>
 								<li><h2 class="bold">JUST DON</h2></li>
@@ -112,7 +138,7 @@
 								<li><h2 class="bold">FUTURA X STASH</h2></li>
 								<li><h2 class="bold">SNARKITECHTURE</h2></li>
 								<li><h2 class="bold">WILLY CHAVARIA</h2></li>
-								<li><h2 class="bold">NICO PANDA</h2></li>
+								<li><h2 class="bold">NICOPANDA</h2></li>
 								<li><h2 class="bold">UNDER ARMOUR</h2></li>
 								<li><h2 class="bold">SKYLER GREY</h2></li>
 								<li><h2 class="bold">NO KINGS COLLECTIVE</h2></li>
@@ -167,11 +193,11 @@
 	</div>	
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script src="https://www.solodev.com/assets/parallax/jquery.localscroll-1.2.7-min.js"></script>
-	<script src="https://www.solodev.com/assets/parallax/jquery.parallax-1.1.3.js"></script>
-	<script src="https://www.solodev.com/assets/parallax/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery-parallax.js" type="text/javascript"></script>
+	<script src="js/jquery-scrollTo.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<!-- <script src="https://www.solodev.com/assets/parallax/jquery.localscroll-1.2.7-min.js"></script> -->
 
 	<!-- MLB IFRAME SCRIPT -->
 	<script src="https://www.mlbstatic.com/mlb.com/vendor/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>

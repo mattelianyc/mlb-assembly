@@ -96,7 +96,7 @@ section {
 	z-index: 15002;
 }
 
-#img, #three {
+#three {
 	z-index: 14998;
 }
 #four {
@@ -140,16 +140,25 @@ section {
 		width: 100%;
 	}
 
+	p,h1,h2,h3,h4,h5,h6 {
+	  letter-spacing: 2px !important;
+	  line-height: 1.3;
+	}
+
 
 }	
 @media only screen and (max-width: 600px) { 
-	#wrap,.bg,.bg2,.bg3,.bg4,.bg6 {
+	p,h1,h2,h3,h4,h5,h6 {
+	  letter-spacing: 1.2px !important;
+	  line-height: 1.2;
+	}
+	#wrap,.bg,.bg2,.bg3,.bg4,.bg5 {
 		background-size: contain !important;
 	}
 	#one {
 		margin-top: 140px !important;
 	}
 	#two {
-		padding: 64px 0`px !important;
+		padding: 64px 0px !important;
 	}
 }
